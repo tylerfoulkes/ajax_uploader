@@ -1,0 +1,146 @@
+/* start global styles */
+html, body, h1, h2, h3, p, img, div, form,
+input, ul, li {
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	margin: 0 0 20px 0;
+}
+
+body {
+	color: black;
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+
+h1 {
+	font-weight: 100;
+	margin: 10px 0 10px 0;
+	color: black;
+	font-size: 14px;
+}
+
+input[type=submit] {
+	border-radius: 8px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	background-color: rgba(160, 255, 160, 1);
+}
+
+input[type=submit]:active {
+	box-shadow: 0 0 8px rgba(20, 255, 20, 1);
+}
+
+p {
+	color: black;
+}
+
+#main {
+	margin: 0 auto 0 auto;
+	width: 300px;
+}
+/* end global styles */
+
+
+/* start upload form styles */
+#choose {
+	margin: 5px 0 0 0;
+	width: 140px;
+}
+
+#upload_form {
+	padding: 5px 2% 5px 2%;
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 96%;
+	height: 120px;
+}
+
+#delete_form {
+	padding: 5px 2% 5px 2%;
+	width: 96%;
+	position: relative;
+}
+
+.previews {
+	margin: 20px 0 0 0;
+	width: 100%;
+	height: 200px;
+	overflow: scroll;
+}
+
+#delete {
+	display: none;
+	top: 5px;
+	right: 2%;
+	position: absolute;
+	z-index: 2;
+}
+
+#upload {
+	float: right;
+	display: none;
+}
+/* end upload form styles */
+
+
+/* start previews styles */
+.previews input[type=checkbox] {
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 2;
+}
+
+.previews li img {
+	padding: 1%;
+	width: 98%;
+	height: auto;
+}
+
+.previews li {
+	width: 33.3%;
+	height: 80px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	list-style-type: none;
+}
+
+#output {
+	color: black;
+	padding: 5px;
+	font-size: 12px;
+}
+/* end previews styles */
+
+
+/* start prograss bar styles */
+#uploaddiv {
+	padding: 3px;
+	position: relative;
+	width: 200px;
+	display: none;
+	text-align: left;
+}
+
+#uploadbar {
+	height: 20px;
+	background-color: rgba(160, 255, 160, 1);
+	width: 1%;
+}
+
+#percentcomplete {
+	top: 3px;
+	left: 50%;
+	position: absolute;
+	display: inline-block;
+}
+/* end prograss bar styles */
